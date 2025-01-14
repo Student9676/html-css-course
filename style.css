@@ -1,0 +1,13 @@
+p {
+	color: #7f7979
+}
+.lorem {
+	background-color: rgb(228, 198, 161);
+	font-size: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#p1 {
+	color: hsl(0, 100%, 60%);
+	font-size: 1.6em;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}

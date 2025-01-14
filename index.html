@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>MY WEBSITE TAB TITLE!</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1>H1 Header</h1>
+		<h2>H2 header</h2>
+		<h3>H3 Header</h3>
+		<h4>H4 header</h4>
+		<h5>H5 header</h5>
+		<hr>
+		<br> <!-- Line break -->
+		
+		<p id="p1">This is the para1</p>
+		<p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi blanditiis dolor in officia. Ut perferendis distinctio expedita voluptatem autem minus repellat eaque eos accusamus tempore dolor, quas deleniti ipsam quibusdam.</p>
+		
+		<br>
+		<p>
+		
+			<a href="https://www.google.com"
+			target="_blank"
+			title="redirects to google"> <!--shows this message on hover-->
+				
+				<button id="gotogoog" onclick="changeColor()" style="animation:100ms; font-size:20px; background-color:khaki; border-radius:20px">Go to Google!</button>
+		
+			</a>
+
+			<script>
+				function changeColor() {
+					document.getElementById("gotogoog").style.backgroundColor = "lightblue"
+				}
+			</script>
+
+			<br><br>
+
+			<a href="lyrics.html"
+			title="redirects to lyrics"> <!--shows this message on hover-->
+			See lyrics!</a>
+		
+			<br><br>
+
+			<a href="mailto:test@gmail.com"
+			title="opens mailto link"> <!--shows this message on hover-->
+			email me!</a>
+		</p>
+
+		<a href="https://en.wikipedia.org/wiki/Pagani_Automobili">
+		<img src="assets/pagani.jpg"
+		alt="a picture of a car facing backward"
+		height = "200">
+		</a>
+
+		<img src="assets/pagani.gif"
+		width ="300">
+
+		<p>This is normal text</p>
+		<p>This is <b>bold</b> text</p>
+		<p>This is <i>italic</i> text</p>
+		<p>This is <u>underlined</u> text</p>
+		<p>This is <del>deleted</del> text</p>
+		<p>This is <big>big</big> text</p>
+		<p>This is <small>small</small> text</p>
+		<p>This is <sub>subscript</sub> text</p>
+		<p>This is <sup>superscript</sup> text</p>
+		<p>This is <tt>monospaced</tt> text</p>
+		<p>This is <mark style="background-color:aquamarine">normal</mark> text</p>
+
+		<p>
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+			<span style="background-color: lightblue;">Adipisci esse dicta omnis aut hic enim repellendus vitae natus dignissimos commodi?</span> 
+			Deserunt pariatur quidem voluptates ullam dolore iusto quod facere repellat!
+		</p>
+		
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+			<div style="background-color:tomato">Corrupti consectetur pariatur impedit porro possimus perspiciatis neque perferendis,</div>
+			sapiente assumenda, doloribus ipsam reprehenderit quae sunt modi maxime est quaerat laboriosam consequatur!
+		</p>
+		
+	
+	</body>
+</html>
